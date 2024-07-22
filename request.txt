@@ -1,0 +1,20 @@
+"Hi, ChatGPT! Please analyze this screenshot of a landing page and create self-contained, interchangeable section templates that include HTML, CSS, and JS within the same template. The global HTML tags (`<html>`, `<body>`) and global CSS settings should be written in `base.html`, which is a Python templating file.
+
+The report should contain the following elements:
+
+1. The number of sections on the landing page.
+2. The detailed HTML structure, CSS, and JS of each section, all within a single template file for each section.
+3. Always include `header.html` and `footer.html` files.
+4. Ensure each section template is self-contained with its own HTML, CSS (within `<style>` tags), and JS (within `<script>` tags).
+5. Include responsive design considerations for mobile devices in the CSS.
+6. If there is a menu, implement a hamburger menu for the mobile version.
+7. Extract all texts into a `content.json` file and use templating placeholders in the templates.
+8. Write global CSS styles within the `<style>` tag in `base.html`.
+9. Ensure image paths are written directly in the HTML.
+10. Include scripts within `<script>` tags in each template where necessary.
+
+In each template file, there should only be the `<style>`, `header`, `footer`, `section`, and `<script>` tags.
+
+Here is the screenshot: [insert image here]
+
+Please provide a complete report with these details and include the appropriate self-contained template files for each section, ensuring all CSS is within `<style>` tags and JS is within `<script>` tags in the same template file as the HTML. Use placeholders in the templates to insert texts from `content.json`. The `base.html` file should use Python templating syntax and include global CSS styles within a `<style>` tag."
