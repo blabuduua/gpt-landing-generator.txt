@@ -8,13 +8,13 @@ The report should contain the following elements:
 4. Ensure each section template is self-contained with its own HTML. Write the CSS in a `<style>` tag before the HTML content and the JS in a `<script>` tag after the HTML content.
 5. Include responsive design considerations for mobile devices in the CSS.
 6. If there is a menu, implement a hamburger menu for the mobile version.
-7. Extract all texts into a `content.json` file and use templating placeholders in the templates. Write the full list of HTML tags instead of using loops like `{% for social in footer.social_links %}`.
+7. Extract all texts into a `content.json` file and use templating placeholders in the templates. All texts should be fully written out, avoiding any abbreviations or incomplete phrases. Ensure that all placeholders are written in a flat structure, such as `{{footer_contacts}}` instead of `{{footer.contacts}}`.
 8. Write global CSS styles within the `<style>` tag in `base.html` for `*`, `html`, and `body` only.
-9. Ensure image paths are written directly in the HTML.
+9. Ensure image paths are written directly in the HTML, following the same convention, e.g., `image_path` instead of `image.path`.
 10. Include a `<script>` tag with the necessary JavaScript after the HTML content in each template.
 
 In each template file, there should only be the `<style>`, `header`, `footer`, `section`, and `<script>` tags, with the `<style>` tag before the HTML content and the `<script>` tag after the HTML content.
 
 Here is the screenshot: [insert image here]
 
-Please provide a complete report with these details and include the appropriate self-contained template files for each section, ensuring all CSS is within `<style>` tags placed before the HTML content and JS is within `<script>` tags placed after the HTML content in the same template file. Use placeholders in the templates to insert texts from `content.json`, writing the full text in all tags and avoiding loops."
+Please provide a complete report with these details and include the appropriate self-contained template files for each section, ensuring all CSS is within `<style>` tags placed before the HTML content and JS is within `<script>` tags placed after the HTML content in the same template file. Use placeholders in the templates to insert texts from `content.json`, writing the full text in all tags without abbreviations or omissions, and ensuring all placeholder variables are flat, such as `{{footer_contacts}}` instead of `{{footer.contacts}}`."
