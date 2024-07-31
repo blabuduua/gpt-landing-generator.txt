@@ -1,4 +1,4 @@
-"Hi, ChatGPT! Please analyze this screenshot of a landing page and create self-contained, interchangeable section templates that include HTML, CSS, and JS within the same template. The global HTML tags (`<html>`, `<body>`) and global CSS settings should be written in `base.html`, which is a Python templating file.
+"Hi, ChatGPT! Please analyze this html_map and screenshot of a landing page and create self-contained, interchangeable section templates that include HTML, CSS, and JS within the same template. The global HTML tags (`<html>`, `<body>`) and global CSS settings should be written in `base.html`, which is a Python templating file.
 
 The report should contain the following elements:
 
@@ -15,6 +15,8 @@ The report should contain the following elements:
 
 In each template file, there should only be the `<style>`, `header`, `footer`, `section`, and `<script>` tags, with the `<style>` tag before the HTML content and the `<script>` tag after the HTML content.
 
-Here is the screenshot: [insert image here]
+Here is the html_map and screenshot.
 
 Please provide a complete report with these details and include the appropriate self-contained template files for each section, ensuring all CSS is within `<style>` tags placed before the HTML content and JS is within `<script>` tags placed after the HTML content in the same template file. Use placeholders in the templates to insert texts from `content.json`, writing the full text in all tags without abbreviations or omissions, and ensuring all placeholder variables are flat, such as `{{footer_contacts}}` instead of `{{footer.contacts}}`."
+
+remember html_map
