@@ -22,8 +22,20 @@ Please provide a complete report with these details and include the appropriate 
 -------
 генерация текста
 
-Please generate a JSON file with new texts for absolutely all keys in the file. Only consider the keys and the requirement that each description should be 500+ characters long, except for headers which should be a single word. The text should be written in the same language as the example text. Here is the example structure for reference:
+Please generate a JSON file with new texts for absolutely all keys in the file. Only consider the keys and the requirement that each description should be 500+ characters long, except for headers which should be a single word. The text should be written in the same language as the example text. Use the following rules:
+
+If the value is "text", generate a 500+ character long text.
+If the value is a number (1, 2, 3, 4, 5, 6, 7, 8, 9, 10), generate that number of words.
+If the value is "path", use a placeholder for the image path.
+Here is the example structure for reference:
 
 content
 
 following structure
+
+
+-------
+генерация картинок 
+
+
+Create a highly photorealistic image tailored to the provided context. Focus on achieving a visually appealing and balanced composition by carefully considering the background, placement of visual elements, and empty spaces. Ensure the heading is prominently displayed as a design element without any actual text in the final image. Fill the background with elements that are relevant and enhance the given theme and context. Prioritize including human figures in the image to make it more engaging and relatable. Do not include any actual text in the image.
